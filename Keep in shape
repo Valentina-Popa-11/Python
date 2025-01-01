@@ -1,0 +1,13 @@
+### Day 1 -> Tipping at UK restautant
+
+print('Welcome to UK tipping etiquette')
+
+# Get input from user and convert to a float
+bill = float(input('Enter the total bill value: '))
+
+# Calculate minimum and maximum tip amounts
+min_tip = bill * 0.10  # 10% of the bill
+max_tip = bill * 0.15  # 15% of the bill
+
+# Display the tip range using f-string
+print(f'The ideal tip amount will be between £{min_tip:.2f} and £{max_tip:.2f}.')
